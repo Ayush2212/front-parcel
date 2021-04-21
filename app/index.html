@@ -6,155 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./idx.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     
 </head>
 <body>
-
-  
-        <div class="universal">
-
-          <nav class="nvvBar">
-
-            <div class="material">
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">How it works?</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                
-              </ul>
-            </div>
-          </nav>
-  
-          <main class="content">
-            <img src="./images/Parcel Illustration.png" width="100%" height="700px" alt="image">
-            <section class="cnt">
-              <h2 class="txt">
-                Sell your food online 
-              </h2>
-              <h2 class="txt2">
-                at 0% Comission
-              </h2>
-            </section>  
-            </main>
-              <div class="register">
-
-                <h3 class="rgist">
-                  Register your Restaurant
-                </h3>
-                <ul class="btt">
-                  <button type="button" class="btn btn-outline-primary">Register</button>
-                </ul>
-               <div class="end">
-
-                <h2 class="end1">
-                  You take the orders 
-                </h2>
-                <h2 class="end2">
-                  Let us deliver
-                </h2>
-               </div>
-          
-              </div>
-  
-          
-  
-      
-
-        </div> 
-
-        <div class="instruction">
-          <hr class="dividing">
-          <h2 class="Guide">
-            Grow your food business
-          </h2>
-          <h2 class="Guide2">
-            And start taking Orders
-          </h2>
-
-
-          <div class="Cards3">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-          </div>
-
-
-        </div>
-
-        <h2 class="closure">
-          We want to help local restaurant thrive
-        </h2>
-         
-        <h2 class="signup">
-          Signup Here
-        </h2>
-
-        <div class="regForm">
-          <form>
-            <div class="col">
-              <div class="row">
-                <label for="validationCustom01">First name *</label>
-                <input type="text" class="form-control" placeholder="First name">
-              </div>
-              <br>
-              <div class="row">
-                <label for="validationCustom02">Last name *</label>
-                <input type="text" class="form-control" placeholder="Last name">
-              </div>
-              <br>
-              <div class="row">
-                <label for="validationCustom01">Company Name *</label>
-                <input type="text" class="form-control" placeholder="First name">
-              </div>
-              <br>
-              
-              <div class="form-group row">
-                <label  id="cmp">Company Email *</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg py-3">
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#howitworks" class="nav-link text-uppercase font-weight-bold">How it works?</a></li>
+                        <li class="nav-item"><a href="#form" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                    </ul>
                 </div>
-              </div>
-              <br>
-
-              <div class="row">
-                <label ></label>Phone number:</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-              </div>
-              <br>
-
             </div>
-          </form>
-        </div>
+        </nav>
+
+        <nav class="mob-nav">
+            <ul class="ul-nav">
+                <li>Home</li>
+                <li>How it works?</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
         
-          
-           
-    
+        <div class="main-header">
+            <div class="content-left">
+                <img class="image" src="./images/Parcel Illustration.png" alt="">
+            </div>
+            <div class="content-right">
+                <div class="heading-primary">Sell your food online <br> at 0% commission</div>
+                <br>
+                <div class="heading-secondary">Register your restaurant now.</div>
+                <button class="btn-white">Register</button>
+                <div class="heading-ternary">You take the orders <br> <span class="text-span">let us deliver</span></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="process" id="howitworks">
+        <div class="heading-process"> Grow your food business <br> online and start taking orders </div>
+        <div class="row margin-left">
+            <div class="col col-md-4">
+                <div class="card-custom">
+                 <span class="steps">Step 1 </span>
+                 <br>
+                 <span class="information"> Download our app
+                    and Register yourself
+                    </span>
+                    <span class="docs">Upload the Documents</span>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <div class="card-custom">
+                    <span class="steps">Step 2 </span>
+                    <br>
+                    <span class="information">Add the name of dishes
+                        and pricing of the dishes                        
+                    </span>
+                    <span class="docs">Add the images of the
+                        dishes as well
+                    </span>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <div class="card-custom">
+                    <span class="steps">Step 3 </span>
+                    <br>
+                    <span class="information">Start sharing the link
+                        of your store to your 
+                        customers                                                 
+                    </span>
+                    <span class="docs">And start earning online
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="heading-process-last">
+            We want to help local restaurant thrive
+        </div>
+    </section>
+
+    <section class="register" id="form">
+       <div class="row">
+        <div class="col col-md-6">
+            <div class="video">
+
+            </div> 
+        </div>
+        <div class="col col-md-6">
+            <div class="form-register">
+                <div class="form-heading">
+                    Its time for our product to do the talking
+                </div>
+                <form action="">
+                    <label class="form-label" for="name">FIRST NAME<span class="star">*</span></label><br>
+                    <input class="input-class" type="text" name="name" id="name">
+                    <br>
+                    <label class="form-label" for="lastname">LAST NAME<span class="star">*</span></label><br>
+                    <input class="input-class" type="text" name="lastname" id="lastname">
+                    <br>
+                    <label class="form-label" for="companyname">Comapny Name<span class="star">*</span></label><br>
+                    <input class="input-class" type="text" name="companyname" id="companyname">
+                    <br>
+                    <label class="form-label" for="businessemail">BUSINESS EMAIL<span class="star">*</span></label><br>
+                    <input class="input-class" type="text" name="businessemail" id="businessemail">
+                    <br>
+                    <label class="form-label" for="phonenumber">PHONE NUMBER<span class="star">*</span></label><br>
+                    <input class="input-class" type="text" name="phonenumber" id="phonenumber">
+                    <br>
+                </form>
+                <button onclick="alert('Thank you!')" class="form-submit-btn">REQUEST PRODUCT DEMO</button>
+            </div>
+        </div>
+       </div>
+    </section>
+    <footer class="foot" >
+        <h2> parcel  </h2>
+    </footer>
 </body>
 </html>

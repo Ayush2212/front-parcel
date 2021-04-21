@@ -18,28 +18,36 @@
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">How it works?</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                        <li class="nav-item"><a href="#howitworks" class="nav-link text-uppercase font-weight-bold">How it works?</a></li>
+                        <li class="nav-item"><a href="#form" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
                     </ul>
                 </div>
             </div>
+        </nav>
+
+        <nav class="mob-nav">
+            <ul class="ul-nav">
+                <li>Home</li>
+                <li>How it works?</li>
+                <li>Contact</li>
+            </ul>
         </nav>
         
         <div class="main-header">
             <div class="content-left">
                 <img class="image" src="./images/Parcel Illustration.png" alt="">
             </div>
-            <span class="content-right">
+            <div class="content-right">
                 <div class="heading-primary">Sell your food online <br> at 0% commission</div>
                 <br>
                 <div class="heading-secondary">Register your restaurant now.</div>
                 <button class="btn-white">Register</button>
-                <div class="heading-ternary">You take the orders <br> <span style="float: right; margin-right: 280px;">let us deliver</span></div>
-            </span>
+                <div class="heading-ternary">You take the orders <br> <span class="text-span">let us deliver</span></div>
+            </div>
         </div>
     </header>
 
-    <section class="process">
+    <section class="process" id="howitworks">
         <div class="heading-process"> Grow your food business <br> online and start taking orders </div>
         <div class="row margin-left">
             <div class="col col-md-4">
@@ -83,12 +91,12 @@
         </div>
     </section>
 
-    <section class="register">
+    <section class="register" id="form">
        <div class="row">
         <div class="col col-md-6">
             <div class="video">
 
-            </div>
+            </div> 
         </div>
         <div class="col col-md-6">
             <div class="form-register">
@@ -111,16 +119,14 @@
                     <label class="form-label" for="phonenumber">PHONE NUMBER<span class="star">*</span></label><br>
                     <input class="input-class" type="text" name="phonenumber" id="phonenumber">
                     <br>
-                    <label class="form-label" for="restaurantpointofsale">RESTAURANT POINT OF SALE<span class="star">*</span></label><br>
-                    <input class="input-class" type="text" name="restaurantpointofsale" id="restaurantpointofsale">
-                    <br>
-                    <label class="form-label" for="numberofrestaurantlocation">NUMBER OF RESTAURANTS LOCATIONS<span class="star">*</span></label><br>
-                    <input class="input-class" type="text" name="numberofrestaurantlocation" id="numberofrestaurantlocation">
                 </form>
-                <button class="form-submit-btn">REQUEST PRODUCT DEMO</button>
+                <button onclick="alert('Thank you!')" class="form-submit-btn">REQUEST PRODUCT DEMO</button>
             </div>
         </div>
        </div>
     </section>
+    <footer class="foot" >
+        <h2> parcel  </h2>
+    </footer>
 </body>
 </html>
